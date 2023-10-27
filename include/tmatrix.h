@@ -287,7 +287,7 @@ public:
 
         for (int i = 0; i < sz; i++) {
             T sum = 0;
-            for (int j = 0; i < sz; i++) {
+            for (int j = 0; j < sz; j++) {
                 sum+=pMem[i][j]*v[j]
             }
 
